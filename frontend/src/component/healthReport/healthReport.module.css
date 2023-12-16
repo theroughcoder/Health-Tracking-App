@@ -1,0 +1,152 @@
+.healthReportWrap {
+  gap: 1rem;
+  background: rgba(240, 238, 238, 0.476);
+  box-shadow: 2px 1.4px 5px rgba(67, 67, 67, 0.483);
+  padding: 2rem 1rem;
+  max-width: 930px;
+  height: fit-content;
+  margin: 1rem auto;
+  border-radius: 10px;
+  user-select: none;
+  flex-wrap: wrap;
+}
+.meter{
+  padding-bottom: 20px;
+  position: relative;
+  margin: auto;
+  width: 400px;
+}
+.avgScore{
+  text-align: center;
+  color: rgb(107, 106, 106);
+  font-size: 40px;
+  font-weight: 600;
+}
+.needle{
+  width: 200px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  background-color: rgb(255, 0, 0);
+  bottom: 30px;
+  left: 100px;
+  transReport: rotate(180deg) translateX(-100px);
+  transition: all .5s;
+}
+.circle{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 50px;
+  position: absolute;
+  left: 184px;
+  bottom: 20px;
+  /* z-index: 1; */
+}
+.healthReport {
+  width: 400px;
+}
+.head{
+  /* text-align: center; */
+  color: rgb(96, 96, 96);
+  margin-top: 20px;
+}
+.dailyScoresWrap{
+
+  background-color: rgb(187, 207, 199);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.dailyScores{
+  height: 400px;
+  width: max( 380px, 40%);
+  background-color: rgb(230, 229, 229);
+  margin: 10px;
+  border-radius: 10px;
+  overflow: scroll;
+}
+.dailyScores::-webkit-scrollbar {
+  display: none;
+}
+.healthScores{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 360px;
+  margin: auto;
+}
+.healthScores div{
+  width: 150px;
+}
+.dailyScoreItem{
+  height: 50px;
+  background-color: rgb(224, 221, 221);
+  margin: 2px;
+  border: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(104, 103, 103);
+}
+.dailyScoreItem:hover{
+ background-color: rgb(66, 65, 65);
+ color: aliceblue;
+}
+.level{
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  /* background-color: rgb(127, 177, 46); */
+  /* background-color: rgb(130, 0, 0); */
+  /* background-color: rgb(240, 67, 36); */
+  /* background-color: rgb(229, 104, 21); */
+  /* background-color: rgb(230, 171, 20); */
+  /* background-color: rgb(23, 147, 44); */
+}
+
+
+
+
+.healthReportWrap input{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 0px solid rgb(153, 151, 151);
+  box-sizing: border-box;
+  padding-left: 10px;
+  color: rgb(110, 108, 108);
+}
+.healthReportWrap label{
+ text-align: left;
+  color: rgb(110, 108, 108);
+}
+.healthReportWrap select{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 0px solid rgb(255, 249, 249);
+  box-sizing: border-box;
+  padding-left: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(133, 132, 132);
+}
+
+.healthReportWrap  button {
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+  border-radius: 5px;
+  /* margin-top: 2rem; */
+  border: 0px solid rgb(153, 151, 151);
+}
+.blueBtn{
+  background: linear-gradient( 10deg, #5bdaf37e, #adfaf68e, #1af3d679);
+  color: rgb(84, 82, 82);
+}

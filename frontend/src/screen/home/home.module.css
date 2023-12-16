@@ -1,0 +1,23 @@
+
+.healthHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+
+.healthWrapBtn {
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    /* margin-top: 2rem; */
+    border: 0px solid rgb(153, 151, 151);
+}
+.blueBtn{
+    background: linear-gradient( 170deg, #c8f7c3, #38f5418e, #02ff02dd);
+    color: rgb(84, 82, 82);
+  }

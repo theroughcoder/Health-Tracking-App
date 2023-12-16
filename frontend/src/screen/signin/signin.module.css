@@ -1,0 +1,131 @@
+.logo {
+    /* width: 240px; */
+    color: rgb(129, 246, 127);
+    font-size: 4ch;
+    font-weight: 800;
+    /* margin-top: 2ch; */
+    border: 1px solid rgba(23, 22, 22, 0);
+    margin: auto;
+  }
+  .logo span {
+    display: block;
+    margin: 2.5ch 0ch 0ch 0ch;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+ 
+  .loginWrap {
+    min-height: 90vh;
+  }
+  .login1 {
+    width: 320px;
+    margin: auto;
+  }
+  .login1 p {
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  .login2Wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(229, 226, 226, 0.476);
+    box-shadow: 2px 1.4px 5px rgba(67, 67, 67, 0.483);
+    padding: 2rem 1rem;
+    max-width: 330px;
+    height: fit-content;
+    margin: 1rem auto;
+    border-radius: 10px;
+    user-select: none;
+  }
+  .loginForm {
+    width: 100%;
+  }
+  .loginForm input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px solid rgb(153, 151, 151);
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.loginWrap button {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    /* margin-top: 2rem; */
+    border: 0px solid rgb(153, 151, 151);
+}
+.blueBtn{
+    background: linear-gradient( 10deg, #5bf35b7e, #adfaad8e, #1ef31a79);
+
+  }
+ 
+  .openSignup {
+    color: aliceblue;
+    background-color: rgba(80, 79, 79, 0.579);
+    width: 100% !important;
+    font-weight: 600 !important;
+    margin-top: 0rem !important;
+  }
+ 
+  .loading {
+    margin: auto;
+  }
+  .errorText {
+    color: red;
+    text-align: center;
+  }
+  .successText {
+    color: #36d64b;
+    text-align: center;
+  }
+  
+
+  /* ***************footer**************** */
+  
+  /* ************Media queries********* */
+  @media (min-width: 850px) {
+    .loginWrap {
+      display: flex;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+    .login1 {
+      margin: 0;
+      margin-bottom: 15vh;
+      width: 500px;
+    }
+    .logo {
+      margin: 0;
+      font-size: 6ch;
+    }
+    .logo span {
+      text-align: left;
+    }
+  
+    .login1 p {
+      text-align: left;
+      font-size: 28px;
+  
+      margin-top: 0;
+    }
+    .login2Wrap {
+      max-width: 340px;
+      width: 340px;
+    }
+  
+   
+  }
+
+  /* ************Media queries********* */
+  

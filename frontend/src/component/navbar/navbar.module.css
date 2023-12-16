@@ -1,0 +1,48 @@
+/* ////////////////////////////////////////////////////////////////////// */
+/*  header started form here  */
+header{
+    height: 50px;
+    background: linear-gradient( 10deg, #6df35b, #b9f888, #45f31a);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 5px grey;
+}
+
+/* logo of the website */
+.logo{
+    padding: 5px;
+    margin-left: 5%;
+    width: 100px;
+
+}
+.logo img{
+    /* font-size: 2.5rem; */
+    height: 100%;
+    border-radius: 5px;
+}
+/* css for header links  */
+.headerLinks{
+    font-size: 5px;
+    margin-right: 5%;
+    color: aliceblue;
+    transform: translateY(10px);
+}
+.headerLinks a{
+    font-size: 1rem;
+    padding: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.logout {
+    margin-top: calc(5px);
+    margin-right : 5%;
+   
+    border-radius: 5px;
+    background: black;
+    color: white;
+    height: 30px;
+    padding: 5px;
+}
+
+/* header is completed here  */
