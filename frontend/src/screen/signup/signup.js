@@ -75,7 +75,7 @@ const navigate = useNavigate()
             </div>
 
             {status  && 
-            <p style={{color : status.status == "success" ?  "green" : "red"}}>{status.message}</p>
+            <p style={{textAlign: 'center', color : status.status == "success" ?  "green" : "red"}}>{status.message}</p>
             }
 
   </div>
