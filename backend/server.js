@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(express.urlencoded());
 
 // cross origin resource sharing
-let allowed = [  'http://localhost:3000', 'https://health-tracking-app.vercel.app/' ];
+let allowed = [  'http://localhost:3000', 'https://health-tracking-app.vercel.app' ];
 function options(req, res){
     let temp;
     let origin = req.header('origin');
