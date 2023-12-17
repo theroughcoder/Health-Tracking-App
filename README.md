@@ -26,7 +26,7 @@ Health is a crucial part of life, but a lot of the time, we take it for granted.
 ## Deployment
 For this application, the microservice architecture of system design has been followed. In this, the code for frontend and backend is written separately and deployed on different servers. The frontend is deployed on Vercel, and the backend is deployed on railway.
 
-##How To Use
+## How To Use
 1) Login or register yourself (You can use these credentials email: sanchit2000sp1@gmail.com password: sanchit).
 ![Alt text](https://github.com/theroughcoder/Health-Tracking-App/blob/main/screenshots/Screenshot%20(62).png "Optional Title")
 ![Alt text](https://github.com/theroughcoder/Health-Tracking-App/blob/main/screenshots/Screenshot%20(63).png "Optional Title")
