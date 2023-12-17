@@ -1,7 +1,7 @@
 # Health tracking App
 
 ## Overview
-Health is a crucial part of life, but a lot of the time, we take it for granted. Especially elderly people (over 65) mostly find it difficult to keep track of healthy living. That is why I have built a health-tracking application for older people. This app is easy to use. Just register or log in yourself and a health form will open in front of you. Your only task is to fill out the form daily with the correct numbers. The form includes the following fields such as walk-in steps,  water in glasses, exercise in minutes, and sleep in hours. This app will provide you with the daily average score and the scores of each day that you have filled in the past. 
+Health is a crucial part of life, but a lot of the time, we take it for granted. Especially elderly people (over 65) mostly find it difficult to keep track of healthy living. That is why I have built a health-tracking application for older people. This app is easy to use. Just register or log in yourself and a health form will open in front of you. Your only task is to fill out the form daily with the correct numbers. The form includes the following fields such as walk-in steps,  water in glasses, exercise in minutes, and sleep in hours. This app will provide you with the daily average health score and the health scores of each day that you have filled in the past. 
 
 ## [Click Here to see live](https://health-tracking-app.vercel.app/)
 
