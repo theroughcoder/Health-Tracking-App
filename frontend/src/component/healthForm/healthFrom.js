@@ -66,9 +66,12 @@ export const HealthFrom = ({setIsHealthForm}) => {
                 <div className={Style.circle}></div>
                 <div className={Style.score}>Score : {score}</div>
 
-
             </div>
+              
             <form className={Style.healthForm} onSubmit={healthHandler} >
+                <br/>
+                <br/>
+                
                 <label>Walk Steps (range 0-6000)</label>
                 <input
                     placeholder="No of steps"
